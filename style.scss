@@ -1,4 +1,32 @@
 
+.menu {
+  background: #1abc9c;
+  display: none;
+  width: 100%;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu ul li {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
+.menu ul li:hover { background: coral; }
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .container {
   width: 1000px;
   height: 750px;
